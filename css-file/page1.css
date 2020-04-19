@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container-fluid{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.navbar{
+    background-color: #203345 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: whitesmoke !important;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    border-top: rgb(53, 204, 255) 3px solid;
+    text-align: left;
+    width: 50%;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.poster{
+    height: 450px;
+    width: auto;
+    display: block;
+    border-radius: 1%;
+}
+.banner{
+    height: 30%;
+    width: auto;
+}
+.bg{
+    background-color: #152535;
+}
