@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
 }
 .container-fluid{
     margin: 0px !important;
@@ -17,21 +18,102 @@ body{
 .navbar-light .navbar-nav .active>.nav-link {
     border-top: rgb(53, 204, 255) 3px solid;
     text-align: left;
-    width: 50%;
+    width: 60%;
     color: white;
     font-weight: 500;
     font-size: 18px;
 }
 .poster{
     height: 450px;
+    position: relative;
+    top: 100px;
+    left: 60px;
     width: auto;
     display: block;
     border-radius: 1%;
 }
 .banner{
-    height: 30%;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 .bg{
     background-color: #152535;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rgb(187, 187, 187);
+    font-weight: 50;
+}
+.fan p{
+    padding-left: 3%;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+}
+.ff img{
+    position: relative;
+    left: 35px;
+    height: 150px;
+    width: 270px;
+    border-radius: 2%;
+}
+.search{
+    border: none;
+    height: 30px;
+    color: white;
+    background-color: #152535;
+    border-radius: 2%;
+}
+.icon:hover{
+    color: white;
+}
+.icon{
+    position: relative;
+    top: 3px;
+    right: 40px;
+    color: whitesmoke;
+}
+.account, .account:hover{
+    color: whitesmoke;
+    padding-right: 10px;
+}
+.tr img{
+    position: relative;
+    left: 40px;
+    border-radius: 2%;
+    width: 1190px;
+    height: 500px;
+}
+.sub{
+    position: relative;
+    left: 100px;
+    height: 90px;
+    border-radius: 0px 0px 7px 7px;
+    background-color:#203345;
+   
+}
+.play img{
+    height: 65px;
+}
+ul{
+    list-style: none;
+}
+.add h1{
+    position: relative;
+    left: 1000%;
+    color: whitesmoke;
+    font-size: 56px;
+}
+.cg img{    
+    position: relative;
+    left: 35px;
+    height: 150px;
+    width: 270px;
+    border-radius: 2%;
+}
+.abt{
+    background-color: #203345;
+    height: 70px;
+    width: 250px;
 }

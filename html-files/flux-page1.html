@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLUX</title>
     <link rel="stylesheet" href="../css-file/page1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -12,9 +13,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
+
+     <!-- Navigation Bar -->
     <div class="container-fluid">
-         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand pl-5 logo" href="#"><img src="../images/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,16 +38,74 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="search" type="search" placeholder="Search" aria-label="Search">
+                    <a href="#" class="icon"><span class="material-icons">search</span></a>
+                    <a href="#" class="account"><span class="material-icons">account_box</span></a>
               </form>
             </div>
           </nav>
         </div>
           <!-- Banner -->
           <div class="row bg">
-              <div class="col-4 d-flex justify-content-end pt-5"><img class="poster" src="../images/money-heist-poster.jpg" alt="poster"></div>
-              <div class="col-8 d-flex justify-content-end"><img class="banner" alt="banner" src="../images/banner.png"></div>
+                <div class="col-3 d-flex justify-content-end pt-5"><img class="poster" src="../images/money-heist-poster.jpg" alt="poster"></div>
+                <div class="col-9">
+                    <ul>
+                        <li><img class="banner" alt="banner" src="../images/banner.png"></li>
+                        <li><p>Lives are in the line as the professor's plan begins to unreveal and the theives<br>must fend off enemies from both inside and outside the Bank of Spain.</p></li>
+                        <li> <button class="btn btn-primary">Watch</button> <button class="btn btn-outline-light">+ Add to Wishlist</button> <button class="btn btn-outline-light">Details</button></li>
+                    </ul>
+                </div>
           </div>
+          <!-- Fan Fav -->
+          <div class="row bg">
+                <div class="col-12 pt-3 pb-3 pl-5 fan"> <p> | Fan Favourites </p></div>
+                <div class="col-3 ff pl-5"><img alt="money-heist" src="../images/ff-1.jpg "></div>
+                <div class="col-3 ff"><img alt="inception" src="../images/ff-2.jpg"></div>
+                <div class="col-3 ff"><img alt="gullyboy" src="../images/ff-3.jpg"></div>
+                <div class="col-3 ff pr-5"><img alt="joker" src="../images/ff-4.jpg"></div>
+          </div>
+          <!-- Bollywood Binge-->
+        <div class="row bg">
+            <div class="col-12 pt-3 pb-3 pl-5 fan"> <p> | Bollywood Binge </p></div>
+            <div class="col-3 ff pl-5"><img alt="money-heist" src="../images/bb-1.jpg "></div>
+            <div class="col-3 ff"><img alt="inception" src="../images/bb-2.jpg"></div>
+            <div class="col-3 ff"><img alt="gullyboy" src="../images/bb-3.jpg"></div>
+            <div class="col-3 ff pr-5"><img alt="joker" src="../images/bb-4.jpeg"></div>
+        </div>
+        <!-- Language Section-->
+        <div class="row bg">
+            <div class="col-12 pt-3 pb-3 pl-5 fan"> <p> | Watch in your language </p></div>
+            <div class="col-2 pl-5"><img alt="English" src="../images/ "></div>
+            <div class="col-2 "><img alt="Hindi" src="../images/"></div>
+            <div class="col-2 "><img alt="Marathi" src="../images/"></div>
+            <div class="col-2 "><img alt="Telgu" src="../images/"></div>
+            <div class="col-2 "><img alt="Tamil" src="../images/"></div>
+            <div class="col-2 pr-5"><img alt="Bengali" src="../images/"></div>
+        </div>
+        <!-- Top Rated -->
+        <div class="row bg">
+            <div class="col-12 pt-3 pb-3 pl-5 fan"> <p> | Top Rated </p></div>
+            <div class="col-8 pl-5 tr"><img alt="avengers" src="../images/T_F.jpg"></div>
+            <div class="col-10 d-flex sub">
+                <a href="#" class="play pt-2"><img alt="play" src="../images/play.png"></a>
+                <ul>
+                    <li><h2 class="pl-2 pt-2" style="color: white;">"Avenges-Endgame: Marvel Studios"</h2></li>
+                    <li><p class="pl-3">2 hr 33 min | 2019 | <span style="color: yellow;" class="material-icons">grade</span> 4.3</p></li>
+                </ul>
+                <a href="#" class="add" style="text-decoration: none;"><h1>+</h1></a>
+            </div>
+        </div>
+        <!-- Choose By Genere -->
+        <div class="row bg">
+            <div class="col-12 pt-3 pb-3 pl-5 fan"> <p> | Choose by Genere </p></div>
+            <div class="col-3 cg pl-5">
+                <ul>
+                    <li><img alt="money-heist" src="../images/ff-1.jpg "></div></li>
+                    <li class="abt"><h3>Romance</h3><a href="#"><p>+Explore</p></a></li>
+                </ul>
+            <div class="col-3 cg"><img alt="inception" src="../images/ff-2.jpg"></div>
+            <div class="col-3 cg"><img alt="gullyboy" src="../images/ff-3.jpg"></div>
+            <div class="col-3 cg pr-5"><img alt="joker" src="../images/ff-4.jpg"></div>
+        </div>
 </body>
 </html>
