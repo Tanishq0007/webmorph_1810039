@@ -91,6 +91,7 @@ p{
     height: 90px;
     border-radius: 0px 0px 7px 7px;
     background-color:#203345;
+    box-shadow: 0px 1px 2px rgb(26, 26, 26); 
    
 }
 .play img{
@@ -105,15 +106,40 @@ ul{
     color: whitesmoke;
     font-size: 56px;
 }
-.cg img{    
-    position: relative;
-    left: 35px;
-    height: 150px;
-    width: 270px;
+.back{
+    background-color: #203345;
+    height: 170px;
+    width: 200px;
+}
+.more{
+    background-color: #203345;
+    height: 40px;
     border-radius: 2%;
 }
-.abt{
+.foot{
     background-color: #203345;
-    height: 70px;
-    width: 250px;
+}
+.social img{
+    height: 60px;
+    width: 60px;
+}
+.foot a{
+    text-decoration: none !important;
+    font-weight: 300;
+    font-size: medium;
+}
+.gen img{
+    position: relative;
+    left: 50px;
+    height: 110px;
+    width: 220px;
+    border-radius: 2%;
+}
+.gensub{
+    position: relative;
+    left: 105px;
+    height: 25px;
+    border-radius: 0px 0px 7px 7px;
+    background-color:#203345;  
+    box-shadow: 0px 1px 2px rgb(26, 26, 26); 
 }

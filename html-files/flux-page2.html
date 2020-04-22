@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FLUX</title>
+        <link rel="stylesheet" href="../css-file/page1.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Navbar -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand pl-5 logo" href="#"><img src="../images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link pr-5" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-5" href="#">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-5" href="#">TV shows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-5" href="#">Kids</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="search" type="search" placeholder="Search" aria-label="Search">
+                        <a href="#" class="icon"><span class="material-icons">search</span></a>
+                        <a href="#" class="account"><span class="material-icons">account_box</span></a>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <!-- Banner -->
+       <div class="row bg">
+           <div class="col-5">
+               <ul>
+                    <li><h1 class="pt-5" style="color: whitesmoke; font-weight: bold;">"Money Heist : Part-4"</h1></li>
+                    <li><p>Season 4 | 2019 | <span style="color: yellow;" class="material-icons">grade</span> 4.3</p></li>
+                    <li><p>Lives are on the line as the professor's plan begin to<br>unreveal and the thieves must fend of enemies from both <br> inside and outside the Bank of Spain</p></li>
+                    <li class="d-flex">
+                        <button class="btn btn-primary btn-lg"><span class="material-icons">play_arrow</span>Watch</button>
+                        <div class="pl-5"><button class="btn btn-outline-light btn-lg">+ Add to Watchlist</button></div>
+                    </li>
+                    <li class="d-flex pt-4"><p style="font-weight: bold;">Director</p>&emsp &emsp<p style="font-weight: bold; color: rgb(110, 110, 255);">Alex Pina</p></li>
+                    <li class="d-flex"><p style="font-weight: bold;">Staring</p>&emsp &emsp &nbsp;<p style="font-weight: bold; color: rgb(110, 110, 255);">Ursula Corbero, Alvaro Morte, Itziar Ituno</p></li>
+                    <li class="d-flex"><p style="font-weight: bold;">Genres</p>&emsp &emsp &ensp;<p style="font-weight: bold; color: rgb(110, 110, 255);">Drama, Thriller, Crime Film</p></li>
+                    <li class="d-flex"><p style="font-weight: bold;">Subtitles</p>&emsp &emsp<p style="font-weight: bold;">English, Spanish</p></li>
+                    <li class="d-flex"><p style="font-weight: bold;">Audio Language</p>&emsp<p style="font-weight: bold;">English, Spanish, Hindi</p></li>   
+                </ul>
+           </div>
+           <div class="col-7"><img class="banner" alt="money-heist" src="../images/banner.png"></div>
+       </div> 
+        <!-- Fan Favourite -->
+        <div class="row bg">
+            <div class="col-12 pt-5 pb-3 pl-5 fan"> <p> | Fan Favourites </p></div>
+            <div class="col-3 ff pl-5"><img alt="money-heist" src="../images/ff-1.jpg "></div>
+            <div class="col-3 ff"><img alt="inception" src="../images/ff-2.jpg"></div>
+            <div class="col-3 ff"><img alt="gullyboy" src="../images/ff-3.jpg"></div>
+            <div class="col-3 ff pr-5"><img alt="joker" src="../images/ff-4.jpg"></div>
+        </div>
+        <!-- Footer -->
+        <div class="row pt-5" style="background-color: #152535;">
+            <div class="col-12 d-flex justify-content-center social foot">
+                <img class="p-3" src="../images/facebook (1).png" alt="facebook">
+                <img class="p-3" src="../images/twitter (1).png" alt="twitter">
+                <img class="p-3" src="../images/imdb.png" alt="imdb">
+                <img class="p-3" src="../images/instagram (1).png" alt="instagram">                
+            </div>
+            <div class="col-12 d-flex justify-content-center foot">
+                <a href="#"><p class="pt-3 pl-5 pr-5">About Flux</p></a>
+                <a href="#"><p class="pt-3 pl-5 pr-5">Career</p></a>
+                <a href="#"><p class="pt-3 pl-5 pr-5">FAQ</p></a>
+                <a href="#"><p class="pt-3 pl-5 pr-5">Get the App</p></a>
+            </div>
+            <div class="col-12 d-flex justify-content-center foot">
+                <a href="#"><p class=" pl-5 pr-5">Terms and policies</p></a>
+                <a href="#"><p class=" pl-5 pr-5">Send Feedback</p></a>
+                <a href="#"><p class=" pl-5 pr-5">Help</p></a>
+            </div>
+            <div class="col-12 d-flex justify-content-center foot">
+                <img style="height: 30px;" src="../images/logo.png">
+            </div>
+            <div class="col-12 d-flex justify-content-center foot">
+                <p style="font-size: small;">&copy; 1999 - 2020 by Flux.com, inc.</p>
+            </div>
+        </div>
+    </body>
+</html>
