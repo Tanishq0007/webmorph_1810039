@@ -36,6 +36,11 @@ body{
     height: auto;
     width: 100%;
 }
+@media only screen and ( max-width: 600px){
+    .poster{
+        display: none;
+    }
+}
 .bg{
     background-color: #152535;
     margin: 0;
@@ -58,6 +63,16 @@ p{
     width: 270px;
     border-radius: 2%;
 }
+
+
+.ff img:hover{
+    position: absolute;
+    height: 170px;
+    width: 320px;  
+    transition: 0.2s ease-in-out;  
+}
+
+
 .search{
     border: none;
     height: 30px;
@@ -82,8 +97,8 @@ p{
     position: relative;
     left: 40px;
     border-radius: 2%;
-    width: 1190px;
-    height: 500px;
+    width: 140%;
+    height: 100%;
 }
 .sub{
     position: relative;
@@ -142,4 +157,9 @@ ul{
     border-radius: 0px 0px 7px 7px;
     background-color:#203345;  
     box-shadow: 0px 1px 2px rgb(26, 26, 26); 
+}
+.lang img{
+    height: 120px;
+    position: relative;
+    left: 25px;
 }
