@@ -53,24 +53,6 @@ p{
     font-size: 26px;
     font-weight: 500;
 }
-.ff img{
-    position: relative;
-    left: 35px;
-    height: 150px;
-    width: 270px;
-    border-radius: 2%;
-}
-
-
-.ff img:hover{
-    position: absolute;
-    height: 170px;
-    width: 350px;
-    z-index: 1;  
-    transition: 0.2s ease-in-out;  
-}
-
-
 .search{
     border: none;
     height: 30px;
@@ -92,6 +74,7 @@ p{
     padding-right: 10px;
 }
 .tr img{
+    overflow: hidden;
     position: relative;
     left: 40px;
     border-radius: 2%;
@@ -116,6 +99,7 @@ ul{
 .add h1{
     position: relative;
     left: 1000%;
+    display: block;
     color: whitesmoke;
     font-size: 56px;
 }
@@ -168,17 +152,45 @@ ul{
     .bg{ 
         display: flex;
         overflow-x: auto;
-        overflow-y: hidden;
     }
     .fan p{
         position: sticky;
         
     }
-    .ff img{
+    .sub{
+        overflow-x: hidden;
+        position: relative;
         left: 10px;
+        height: 50px;
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(26, 26, 26); 
+       
+    }
+    .play img{
+        height: 20px;
+    }
+    .add h1{
+        display: none;
+    }
+    .size h2{
+        font-size: 16px;
+        padding-top: 5px !important;
+    }
+    .size p{
+        font-size: 10px;
+        padding-top: 0px !important ;
+    }
+    .size span{
+        display: none;
+    }
+    .gensub{
+        position: relative;
+        left: 60px;
+        height: 25px;
+        border-radius: 0px 0px 5px 5px;
     }
 }
-/* width */
+/* scrollbar */
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -191,3 +203,58 @@ ul{
 ::-webkit-scrollbar-thumb:hover {
     background: transparent; 
 }
+  .card {
+    position: relative;
+    width: 270px;
+    margin: 0 auto;
+    cursor: pointer;
+    z-index: 2;
+    transition: all .2s ease;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    padding: 0 !important;
+}
+  .card:hover {
+     transform: scale(1.03);
+     z-index: 4;
+  }
+  .card .card-image {
+    position: relative;
+    width: 100%;
+    height: 150px;
+  }
+  .card-image:hover{
+      transform: scale(1.15);
+  }
+  .card-footer {
+    display: flex;
+    position: absolute;
+    height: 120px;
+    bottom: 5px;
+    width: 100%;
+    background-color: #152535 !important; 
+    align-items: center;
+    transition: all .2s ease;
+    visibility: hidden;
+  }
+  
+  .card-footer__title {
+    font-size: small;
+    color: whitesmoke;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+  .card-footer__info small {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+  }
+  .card:hover .card-footer {
+    bottom: -120px;
+    transform: scale(1.13);
+    box-shadow: 0px 1px 2px rgb(26, 26, 26); 
+    visibility: visible;
+  }
